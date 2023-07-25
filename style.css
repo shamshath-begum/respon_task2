@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 50%;
+    height: 100vh;
+    line-height: 13px;
+    margin: 0 25%;
+    padding: 15px;
+    border: 1px solid rgb(155, 151, 151) ;
+}
+#name{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#first_input{
+    width: 189px;   
+}
+#last_input{
+    width: 189px;   
+}
+
+#email{
+    width: 400px;
+}
+#last{
+    font-size: 10px;
+}
+#first{
+    font-size: 10px;
+}
+.label{
+    font-weight: bolder;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.star{
+    color: #FF4415; 
+}
+.star_5{
+    color: #e98d76;  
+}
+#overall{
+    font-size: 12px;
+}
+
+button{
+   background-color: rgb(236, 228, 228);
+   border: 1px solid rgb(196, 191, 191);
+   height: 40px;
+   width: 60px;
+}
+table{
+    font-size: 10px;
+}
+
+@media screen and (max-width:320px){
+    #container{
+        width: 100%;
+        height: 100vh;
+        line-height: 12px;
+        /* margin: 0 25%; */
+        /* padding: 15px; */
+         margin-left: -1px; 
+        border: 1px solid rgb(155, 151, 151) ;
+    }
+    #name{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    #first_input{
+        width: 89px; 
+        height: 8px ;  
+    }
+    #last_input{
+        width: 89px;  
+        height: 8px ;
+    }
+    
+    #email{
+        width: 186px;
+        height: 10px;
+    }
+    #last{
+        font-size: 6px;
+    }
+    #first{
+        font-size: 6px;
+    }
+    .label{
+        font-weight: bold;
+        font-size: 8px;
+        font-family: sans-serif;
+    }
+    .star{
+        color: #FF4415; 
+        /* width: 15px; */
+    }
+    .star_5{
+        color: #e98d76;  
+        width: 13px;
+        height: 8px;
+    }
+    #overall{
+        font-size: 8px;
+    }
+    
+    button{
+       background-color: rgb(236, 228, 228);
+       border: 1px solid rgb(196, 191, 191);
+       height: 20px;
+       width: 30px;
+       font-size: 6px;
+    }
+    table{
+        font-size: 5px;
+    }
+    textarea {
+height: 50px;
+    }
+    
+}
+
+@media all and (min-width:321px) and (max-width:375px){
+    #container{
+        width: 100%;
+        height: 100vh;
+        line-height: 12px;
+        /* margin: 0 25%; */
+        /* padding: 15px; */
+        margin-left: -5px;
+        border: 1px solid rgb(155, 151, 151) ;
+    }
+    #name{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    #first_input{
+        width: 89px; 
+        height: 8px ;  
+    }
+    #last_input{
+        width: 89px;  
+        height: 8px ;
+    }
+    
+    #email{
+        width: 186px;
+        height: 10px;
+    }
+    #last{
+        font-size: 6px;
+    }
+    #first{
+        font-size: 6px;
+    }
+    .label{
+        font-weight: bold;
+        font-size: 8px;
+        font-family: sans-serif;
+    }
+    .star{
+        color: #FF4415; 
+        /* width: 15px; */
+    }
+    .star_5{
+        color: #e98d76;  
+        width: 13px;
+        height: 8px;
+    }
+    #overall{
+        font-size: 8px;
+    }
+    
+    button{
+       background-color: rgb(236, 228, 228);
+       border: 1px solid rgb(196, 191, 191);
+       height: 20px;
+       width: 30px;
+       font-size: 6px;
+    }
+    table{
+        font-size: 5px;
+    }
+    textarea {
+height: 50px;
+    }
+    
+}
+
+@media all and (min-width:376px) and (max-width:425px){
+    #container{
+         width: 100%;
+        height: 100vh;
+        line-height: 12px;  
+        /* margin: 0 25%; */
+        /* padding: 15px; */
+        margin-left: -10px;
+        border: 1px solid rgb(155, 151, 151) ;
+    }
+    #name{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    #first_input{
+        width: 89px; 
+        height: 8px ;  
+    }
+    #last_input{
+        width: 89px;  
+        height: 8px ;
+    }
+    
+    #email{
+        width: 186px;
+        height: 10px;
+    }
+    #last{
+        font-size: 6px;
+    }
+    #first{
+        font-size: 6px;
+    }
+    .label{
+        font-weight: bold;
+        font-size: 8px;
+        font-family: sans-serif;
+    }
+    .star{
+        color: #FF4415; 
+        /* width: 15px; */
+    }
+    .star_5{
+        color: #e98d76;  
+        width: 13px;
+        height: 8px;
+    }
+    #overall{
+        font-size: 8px;
+    }
+    
+    button{
+       background-color: rgb(236, 228, 228);
+       border: 1px solid rgb(196, 191, 191);
+       height: 20px;
+       width: 30px;
+       font-size: 6px;
+    }
+    table{
+        font-size: 5px;
+    }
+    textarea {
+height: 50px;
+    }
+    
+}
+
+ @media all and (min-width:426px) and (max-width:768px){
+    #container{
+         width: 75%;
+        height: 100vh;
+        line-height: 12px;  
+         margin: 0 10%; 
+         padding: 15px; 
+        
+        border: 1px solid rgb(155, 151, 151) ;
+    }
+    #name{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    #first_input{
+        width: 89px; 
+        height: 8px ;  
+    }
+    #last_input{
+        width: 89px;  
+        height: 8px ;
+    }
+    
+    #email{
+        width: 186px;
+        height: 10px;
+    }
+    #last{
+        font-size: 6px;
+    }
+    #first{
+        font-size: 6px;
+    }
+    .label{
+        font-weight: bold;
+        font-size: 8px;
+        font-family: sans-serif;
+    }
+    .star{
+        color: #FF4415; 
+        /* width: 15px; */
+    }
+    .star_5{
+        color: #e98d76;  
+        width: 13px;
+        height: 8px;
+    }
+    #overall{
+        font-size: 8px;
+    }
+    
+    button{
+       background-color: rgb(236, 228, 228);
+       border: 1px solid rgb(196, 191, 191);
+       height: 20px;
+       width: 30px;
+       font-size: 6px;
+    }
+    table{
+        font-size: 5px;
+    }
+    textarea {
+height: 50px;
+    }
+    
+}
+@media all and (min-width:769px) and (max-width:1023px){
+    #container{
+        width: 50%;
+        height: 100vh;
+        line-height: 10px;
+        margin: 0 25%;
+        padding: 15px;
+        border: 1px solid rgb(155, 151, 151) ;
+    }
+    #name{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    #first_input{
+        width: 110px;   
+    }
+    #last_input{
+        width: 110px;   
+    }
+    
+    #email{
+        width: 240px;
+        height: 18px;
+    }
+    #last{
+        font-size: 8px;
+    }
+    #first{
+        font-size: 8px;
+    }
+    .label{
+        font-weight: bold;
+        font-size: 7px;
+        font-family: sans-serif;
+    }
+    .star{
+        color: #FF4415; 
+    }
+    .star_5{
+        color: #e98d76;  
+        
+    }
+    #overall{
+        font-size: 10px;
+    }
+    
+    button{
+       background-color: rgb(236, 228, 228);
+       border: 1px solid rgb(196, 191, 191);
+       height: 25px;
+       width: 50px;
+       font-size: 8px;
+    }
+    table{
+        font-size: 8px;
+    }
+    textarea {
+        height: 55px;
+            }
+}
+@media all and (min-width:1025px) and (max-width:1439px){
+    #container{
+        width: 50%;
+        height: 100vh;
+        line-height: 10px;
+        margin: 0 25%;
+        padding: 15px;
+        border: 1px solid rgb(155, 151, 151) ;
+    }
+    #name{
+        display: flex;
+        flex-direction: row;
+        gap: 19px;
+    }
+    #first_input{
+        width: 187px;
+        height: 20px;   
+    }
+    #last_input{
+        width: 189px;  
+        height: 20px;    
+    }
+    
+    #email{
+        width: 400px;
+        height: 18px;    
+    }
+    #last{
+        font-size: 10px;
+    }
+    #first{
+        font-size: 10px;
+    }
+    .label{
+        font-weight: bolder;
+        font-size: 8px;
+        font-family: sans-serif;
+    }
+    .star{
+        color: #FF4415; 
+    }
+    .star_5{
+        color: #e98d76;  
+    }
+    #overall{
+        font-size: 10px;
+    }
+    
+    button{
+       background-color: rgb(236, 228, 228);
+       border: 1px solid rgb(196, 191, 191);
+       height: 30px;
+       width: 55px;
+       font-size: 10px;
+    }
+    table{
+        font-size: 8px;
+    }
+    textarea {
+        height: 60px;
+            }
+}
